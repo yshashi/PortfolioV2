@@ -168,7 +168,7 @@ export const projects = [
         color: "blue-text-gradient ",
       },
     ],
-    image: "src/assets/aicontentgenerator.png",
+    image: "images/aicontentgenerator.png",
     source_code_link: "https://github.com/yshashi",
   },
   {
@@ -189,7 +189,7 @@ export const projects = [
         color: "blue-text-gradient ",
       },
     ],
-    image: "src/assets/socialmediaresizer.png",
+    image: "images/socialmediaresizer.png",
     source_code_link: "https://github.com/yshashi",
   },
   {
@@ -210,7 +210,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/scrumpoker.png",
+    image: "images/scrumpoker.png",
     source_code_link: "https://github.com/yshashi",
   },
 ];
