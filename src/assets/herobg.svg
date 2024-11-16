@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.4">
+    <!-- Grid pattern -->
+    <path d="M0 0h1440v900H0z" fill="#050816"/>
+    <path stroke="rgba(255,255,255,0.1)" stroke-width="0.5" d="M0 100h1440M0 200h1440M0 300h1440M0 400h1440M0 500h1440M0 600h1440M0 700h1440M0 800h1440"/>
+    <path stroke="rgba(255,255,255,0.1)" stroke-width="0.5" d="M100 0v900M200 0v900M300 0v900M400 0v900M500 0v900M600 0v900M700 0v900M800 0v900M900 0v900M1000 0v900M1100 0v900M1200 0v900M1300 0v900M1400 0v900"/>
+    
+    <!-- Abstract shapes -->
+    <circle cx="720" cy="450" r="300" fill="url(#gradient1)" opacity="0.4"/>
+    <circle cx="720" cy="450" r="200" fill="url(#gradient2)" opacity="0.3"/>
+    <path d="M520 250q100 100 400 400T520 250z" stroke="url(#gradient3)" stroke-width="2" opacity="0.2"/>
+    
+    <!-- Gradients -->
+    <defs>
+      <radialGradient id="gradient1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 450) rotate(90) scale(300)">
+        <stop offset="0%" stop-color="#915eff"/>
+        <stop offset="100%" stop-color="#915eff" stop-opacity="0"/>
+      </radialGradient>
+      
+      <radialGradient id="gradient2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 450) rotate(90) scale(200)">
+        <stop offset="0%" stop-color="#915eff"/>
+        <stop offset="100%" stop-color="#915eff" stop-opacity="0"/>
+      </radialGradient>
+      
+      <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#915eff"/>
+        <stop offset="100%" stop-color="#915eff" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+  </g>
+</svg>
