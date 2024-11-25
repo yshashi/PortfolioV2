@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { About, Contact, Experience, Hero, Navbar, Tech, Projects } from './components';
+import { About, Contact, Experience, Hero, Navbar, Tech, Projects, Talks } from './components';
 import Blog from './pages/Blog';
 import BlogDetails from './pages/BlogDetails';
 
@@ -14,6 +14,7 @@ const HomePage = () => {
       <Experience />
       <Tech />
       <Projects />
+      <Talks />
       <Contact />
     </div>
   );
