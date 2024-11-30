@@ -1,3 +1,4 @@
+  //TODO: integrate the data from the backend
 export const navLinks = [
   {
     id: "about",
@@ -150,7 +151,7 @@ export const experiences = [
       "Applied Agile methodologies, including Scrum and Kanban, to improve development processes and team collaboration."
   ],
   },
-  // Add more experiences here
+  // Add more experiences here over the time
 ];
 
 export const projects = [
