@@ -129,7 +129,7 @@ export const experiences = [
     company_name: "Citiustech Healthcare Pvt Ltd",
     icon: "https://www.citiustech.com/hubfs/citiustech-2024/Media%20Kit/Logos/CT%20Ultramarine/SVG/CitiusTech%20Logo_and_Brand%20Colours-02.svg",
     iconBg: "#383E56",
-    date: "March 2020 - Present",
+    date: "March 2020 - September 2021",
     points: [
       "Developed and maintained web applications using ASP.NET Core 2.1, C#, and SQL Server with backend functionality for data processing, validation, and storage using Entity Framework.",
       "Built reusable TypeScript components and hooks for REST API integration, utilizing a React component-based architecture.",
