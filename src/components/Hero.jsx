@@ -2,6 +2,10 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 
 const Hero = () => {
+  const handleDownloadResume = () => {
+    window.open('https://drive.google.com/file/d/1tlzGRapQ26IDQNgeKqv0Tk1oj2N2h6_b/view?usp=sharing', '_blank');
+  };
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -18,6 +22,12 @@ const Hero = () => {
             Senior Full Stack Developer with expertise in<br className="sm:block hidden" />
             building exceptional digital experiences
           </p>
+          <button
+            onClick={handleDownloadResume}
+            className="mt-8 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary bg-[#915eff] hover:bg-[#7f44ff] transition-all"
+          >
+            Download Resume
+          </button>
         </div>
       </div>
 
